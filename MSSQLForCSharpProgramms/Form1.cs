@@ -6,7 +6,7 @@ namespace MSSQLForCSharpProgramms
 {
     public partial class Form1 : Form
     {
-        private SqlConnection sqlConnection = null;
+        private SqlConnection sqlConnection = null!;
         public Form1()
         {
             InitializeComponent();
